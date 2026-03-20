@@ -1,0 +1,12 @@
+# NSF2X - Python Dependencies
+# 
+# Requirements for running NSF2X from source
+# Note: This application requires Windows with Lotus Notes and optionally Outlook installed
+
+# Windows COM/MAPI interfaces and cryptographic functions
+# Note: The pywin32 build must include MAPI support (standard WinPython builds may not include it)
+pywin32>=224
+
+# Build dependencies (only needed for creating executables)
+py2exe>=0.9.2.2; python_version>="3.0"
+py2exe>=0.6.9; python_version<"3.0"
